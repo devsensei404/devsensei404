@@ -1,0 +1,227 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {
+        "animationType": "slide-left",
+        "animationPreviewKey": 3
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1787484808008_0"
+    },
+    {
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 288,
+        "y": 106
+      },
+      "size": {
+        "width": 504,
+        "height": 280
+      },
+      "config": {
+        "showContactSection": true
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2,
+      "instanceId": "widget_1787484808008_1"
+    },
+    {
+      "widgetId": "repositories",
+      "name": "Repositories Widget",
+      "position": {
+        "x": 0,
+        "y": 472
+      },
+      "size": {
+        "width": 396,
+        "height": 256
+      },
+      "config": {
+        "repoCardHeight": 52,
+        "repoViewMode": "list",
+        "maxRepos": 3,
+        "showRepoForks": true,
+        "showRepoUpdated": false,
+        "hideBorder": false,
+        "hideDecorations": false,
+        "selectedRepos": [
+          "GlyphX",
+          "placement-portal",
+          "airgap-pay"
+        ],
+        "animationType": "fade-in",
+        "animationPreviewKey": 7,
+        "animationDuration": 1000,
+        "showTitle": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1787484808008_2"
+    },
+    {
+      "widgetId": "avatar",
+      "name": "Avatar Widget",
+      "position": {
+        "x": 8,
+        "y": 106
+      },
+      "size": {
+        "width": 280,
+        "height": 280
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "showTitle": false,
+        "hideDecorations": true,
+        "hideBorder": true,
+        "accentColor": "transparent"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1787484808008_3"
+    },
+    {
+      "widgetId": "languages",
+      "name": "Languages Widget",
+      "position": {
+        "x": 304,
+        "y": 320
+      },
+      "size": {
+        "width": 392,
+        "height": 160
+      },
+      "config": {
+        "hideDecorations": true,
+        "hideBorder": true,
+        "hideLangsArr": [],
+        "hideLangs": "",
+        "langsLayout": "bars",
+        "langsCount": 6,
+        "animationType": "fade-in",
+        "animationPreviewKey": 8
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7,
+      "instanceId": "widget_1787484808008_6"
+    },
+    {
+      "instanceId": "widget_1792470107126",
+      "widgetId": "ascii-text",
+      "name": "Ascii-text Widget",
+      "position": {
+        "x": 0,
+        "y": 760
+      },
+      "size": {
+        "width": 800,
+        "height": 120
+      },
+      "config": {
+        "customText": "DATTEBAYO !!",
+        "asciiFont": "block",
+        "charSpacing": 1,
+        "fontSize": 12,
+        "charset": "default",
+        "customCharset": "",
+        "asciiLines": [
+          "██████▄   ▄████▄  ████████ ████████ ████████ ███████▄  ▄████▄  ██    ██  ▄████▄        ██   ██ ",
+          "██    ██ ██    ██    ██       ██    ██       ██    ██ ██    ██  ▀████▀  ██    ██       ██   ██ ",
+          "██    ██ ████████    ██       ██    ██████   ███████▀ ████████    ██    ██    ██       ██   ██ ",
+          "██    ██ ██    ██    ██       ██    ██       ██    ██ ██    ██    ██    ██    ██               ",
+          "██████▀  ██    ██    ██       ██    ████████ ███████▀ ██    ██    ██     ▀████▀        ██   ██ "
+        ],
+        "animationType": "fade-in",
+        "animationPreviewKey": 10,
+        "animationDuration": 1000
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "instanceId": "widget_1792470997848",
+      "widgetId": "asciiprofile-heatmap",
+      "name": "Asciiprofile-heatmap Widget",
+      "position": {
+        "x": 0,
+        "y": 888
+      },
+      "size": {
+        "width": 780,
+        "height": 240
+      },
+      "config": {
+        "accentColor": "#ffa657",
+        "paletteIndex": 2,
+        "palette": [
+          "#161b22",
+          "#1f2937",
+          "#3b82f6",
+          "#60a5fa",
+          "#93c5fd",
+          "#c084fc"
+        ],
+        "staticMode": false,
+        "showTitle": true,
+        "hideBorder": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "instanceId": "widget_1792471178101",
+      "widgetId": "premium-ascii-insights",
+      "name": "Premium-ascii-insights Widget",
+      "position": {
+        "x": 376,
+        "y": 488
+      },
+      "size": {
+        "width": 392,
+        "height": 264
+      },
+      "config": {
+        "lockAspectRatio": false,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#bd93f9",
+        "secondaryColor": "#ff79c6",
+        "borderColor": "#382a47"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 9
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 16,
+    "themeMode": "auto",
+    "templateStyle": "native_advanced"
+  },
+  "templateId": "native_advanced"
+}
