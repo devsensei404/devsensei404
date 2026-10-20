@@ -128,7 +128,7 @@
       "name": "Ascii-text Widget",
       "position": {
         "x": 0,
-        "y": 760
+        "y": 748
       },
       "size": {
         "width": 800,
@@ -157,37 +157,6 @@
       "zIndex": 8
     },
     {
-      "instanceId": "widget_1792470997848",
-      "widgetId": "asciiprofile-heatmap",
-      "name": "Asciiprofile-heatmap Widget",
-      "position": {
-        "x": 0,
-        "y": 888
-      },
-      "size": {
-        "width": 780,
-        "height": 240
-      },
-      "config": {
-        "accentColor": "#ffa657",
-        "paletteIndex": 2,
-        "palette": [
-          "#161b22",
-          "#1f2937",
-          "#3b82f6",
-          "#60a5fa",
-          "#93c5fd",
-          "#c084fc"
-        ],
-        "staticMode": false,
-        "showTitle": true,
-        "hideBorder": false
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 8
-    },
-    {
       "instanceId": "widget_1792471178101",
       "widgetId": "premium-ascii-insights",
       "name": "Premium-ascii-insights Widget",
@@ -206,6 +175,29 @@
         "accentColor": "#bd93f9",
         "secondaryColor": "#ff79c6",
         "borderColor": "#382a47"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 9
+    },
+    {
+      "instanceId": "widget_1792475237238",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 0,
+        "y": 868
+      },
+      "size": {
+        "width": 800,
+        "height": 250
+      },
+      "config": {
+        "showTitle": false,
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationDuration": 1000,
+        "hideBorder": false
       },
       "locked": false,
       "visible": true,
