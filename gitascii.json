@@ -32,7 +32,12 @@
         "height": 280
       },
       "config": {
-        "showContactSection": true
+        "showContactSection": true,
+        "customEmail": "devsensei404@gmail.com",
+        "customWebsite": "devsensei404.is-a.dev",
+        "customGithub": "",
+        "showEmail": true,
+        "showGithub": false
       },
       "locked": false,
       "visible": true,
@@ -100,11 +105,11 @@
       "widgetId": "languages",
       "name": "Languages Widget",
       "position": {
-        "x": 304,
-        "y": 320
+        "x": 288,
+        "y": 328
       },
       "size": {
-        "width": 392,
+        "width": 480,
         "height": 160
       },
       "config": {
@@ -119,8 +124,56 @@
       },
       "locked": false,
       "visible": true,
-      "zIndex": 7,
+      "zIndex": 5,
       "instanceId": "widget_1787484808008_6"
+    },
+    {
+      "instanceId": "widget_1792471178101",
+      "widgetId": "premium-ascii-insights",
+      "name": "Premium-ascii-insights Widget",
+      "position": {
+        "x": 376,
+        "y": 488
+      },
+      "size": {
+        "width": 392,
+        "height": 264
+      },
+      "config": {
+        "lockAspectRatio": false,
+        "transparentBackground": true,
+        "backgroundColor": "#c5ff4a",
+        "accentColor": "#bd93f9",
+        "secondaryColor": "#ff79c6",
+        "borderColor": "#382a47"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1792475237238",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 0,
+        "y": 814
+      },
+      "size": {
+        "width": 800,
+        "height": 232
+      },
+      "config": {
+        "showTitle": false,
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationDuration": 1000,
+        "hideBorder": false,
+        "theme": "dark"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
     },
     {
       "instanceId": "widget_1792470107126",
@@ -128,7 +181,7 @@
       "name": "Ascii-text Widget",
       "position": {
         "x": 0,
-        "y": 748
+        "y": 736
       },
       "size": {
         "width": 800,
@@ -155,53 +208,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 8
-    },
-    {
-      "instanceId": "widget_1792471178101",
-      "widgetId": "premium-ascii-insights",
-      "name": "Premium-ascii-insights Widget",
-      "position": {
-        "x": 376,
-        "y": 488
-      },
-      "size": {
-        "width": 392,
-        "height": 264
-      },
-      "config": {
-        "lockAspectRatio": false,
-        "transparentBackground": true,
-        "backgroundColor": "transparent",
-        "accentColor": "#bd93f9",
-        "secondaryColor": "#ff79c6",
-        "borderColor": "#382a47"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 9
-    },
-    {
-      "instanceId": "widget_1792475237238",
-      "widgetId": "contribution-snake",
-      "name": "Contribution-snake Widget",
-      "position": {
-        "x": 0,
-        "y": 868
-      },
-      "size": {
-        "width": 800,
-        "height": 250
-      },
-      "config": {
-        "showTitle": false,
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "animationDuration": 1000,
-        "hideBorder": false
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 9
     }
   ],
   "globalStyles": {
