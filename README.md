@@ -18,4 +18,3 @@ Here are some ideas to get you started:
   <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/devsensei404/devsensei404/gitascii/profiles/default/dark.svg?v=2" width="100%">
 </picture>
 
-- 📫 How to reach me: email at devsensei404@gmail.com
